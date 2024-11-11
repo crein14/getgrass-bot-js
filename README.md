@@ -35,6 +35,8 @@ SetUp on `Configuration.js`
   - Go To [chrome://extensions/](chrome://extensions/)
   - <img src="https://github.com/user-attachments/assets/58c8116c-3e99-43c7-be4a-0849c0428d37" width="650" height="350" alt="Screenshot">
 - Get Useragent Click [Here](https://ipchicken.com/)
+  - <img src="https://github.com/user-attachments/assets/8b64ab22-d308-4ee5-854d-58ac275768fb" width="650" height="250" alt="Screenshot">
+
 - Edit Proxy.txt
   - format proxies is: `socks5://username:pass@ip:port`
 
