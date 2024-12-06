@@ -36,6 +36,7 @@ SetUp on `Configuration.js`
   - Go to Dashboard
   - Inspect Element
   - Type `localStorage.getItem('userId')` in the console
+  - or just Click Here [get UserId](https://api.getgrass.io/retrieveUser) make sure you have been logged into grass dashboard
     - ![Screenshot 2024-11-11 at 07 36 24](https://github.com/user-attachments/assets/6fd576ab-b730-473a-8072-2cdb1a54df4e)
 - Get Extention Id
   - Go To [chrome://extensions/](chrome://extensions/)
