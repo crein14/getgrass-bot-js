@@ -52,7 +52,7 @@ SetUp on `Configuration.js`
   ```bash
   node main.js
   ```
-  - <img src="https://github.com/user-attachments/assets/279974dd-5a14-4cef-b968-64d7bb2977bb" width="600" height="280" alt="Screenshot">
+  - <img src="https://github.com/user-attachments/assets/a65a126b-d899-4818-9fd2-8689480bbcb4" widht=580 height=480 >
 
 ## 📢 Additional information
 
