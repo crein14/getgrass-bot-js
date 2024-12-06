@@ -53,7 +53,7 @@ SetUp on `Configuration.js`
   
 - Get Proxies IP address Socks5
   - Create an account at [proxies.fo](https://app.proxies.fo/ref/8b1abd0f-c734-1602-5985-612caedf4c7b)
-  - Go to [purchase isp](https://app.proxies.fo/purchase/isp)  and `buy` a plan according to `your needs`.
+  - Go to `purchase isp`  and `buy` a plan according to `your needs`.
     - You can use `cryptocurrency` for `payment` 
     - <img src="https://github.com/user-attachments/assets/18f24ed1-cfc6-4141-addb-07e009c7226b" width="720" height="480" alt="Screenshot">
   - after that you go to the dashboard `Click Generate proxy Button`
