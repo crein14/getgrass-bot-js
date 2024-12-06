@@ -1,4 +1,10 @@
 # 🌱 grass-miner-js
+## Update on release section!
+  - Release [grass-desktop-v0.2](https://github.com/cmalf/grass-miner-js/releases/tag/grass-desktop-v0.2)
+  - mining 2.00X
+  - more stable
+  - bug fixed
+<hr><br><br>
 - `Season 2` <br>
 This Javascript-based script will automate grass node mining while managing multiple devices and IP addresses to maximize profits and maintain sustainable uptime. Ideal for people who want to manage WebSocket connections using the SOCKS5 Protocol smoothly and effectively. <br>
                 -
