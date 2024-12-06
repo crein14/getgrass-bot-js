@@ -56,12 +56,12 @@ SetUp on `Configuration.js`
   - Go to [purchase isp](https://app.proxies.fo/purchase/isp)  and `buy` a plan according to `your needs`.
     - You can use `cryptocurrency` for `payment` 
     - <img src="https://github.com/user-attachments/assets/18f24ed1-cfc6-4141-addb-07e009c7226b" width="720" height="480" alt="Screenshot">
-  - after that you go to the dashboard `Click Generator Button`
+  - after that you go to the dashboard `Click Generate proxy Button`
   - Now You can change the Proxy format to :
-     - `USER:PASS@HOST:PORT`
-     - Use `Socks5` in the proxy number
-     - Write 200 or any number `(max 20k)`
-     - Click `Save to generate`
+     - `protocol://username:password@hostname:port`
+     - or just look the ss below
+     - ![Screenshot 2024-12-06 at 16 24 31](https://github.com/user-attachments/assets/c9d552f1-7241-4705-8580-30a88aae8638)
+
 
 
 
