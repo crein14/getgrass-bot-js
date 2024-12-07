@@ -3,8 +3,37 @@ const fs = require('fs');
 const crypto = require('crypto');
 const { SocksProxyAgent } = require('socks-proxy-agent');
 const { v4: uuidv4, v3: uuidv3 } = require('uuid');
-const logger = require('pino')();
+const pino = require('pino');
+const logger = pino({ level: 'info', transport: { target: 'pino-pretty' } });
 const config = require('./configuration');
+
+let CoderMarkPrinted = false;
+
+const cl = {
+    gr: '\x1b[32m',
+    br: '\x1b[34m',
+    red: '\x1b[31m',
+    yl: '\x1b[33m',
+    gb: '\x1b[4m',
+    rt: '\x1b[0m'
+};
+
+function CoderMark() {
+    if (!CoderMarkPrinted) {
+        console.log(`
+╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━━┳╮
+┃╭━━╯╱╱╱╱╱╱╱╱╱╱╱╱╱┃╭━━┫┃${cl.gr}
+┃╰━━┳╮╭┳━┳━━┳━━┳━╮┃╰━━┫┃╭╮╱╭┳━╮╭━╮
+┃╭━━┫┃┃┃╭┫╭╮┃╭╮┃╭╮┫╭━━┫┃┃┃╱┃┃╭╮┫╭╮╮${cl.br}
+┃┃╱╱┃╰╯┃┃┃╰╯┃╰╯┃┃┃┃┃╱╱┃╰┫╰━╯┃┃┃┃┃┃┃
+╰╯╱╱╰━━┻╯╰━╮┣━━┻╯╰┻╯╱╱╰━┻━╮╭┻╯╰┻╯╰╯${cl.rt}
+╱╱╱╱╱╱╱╱╱╱╱┃┃╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
+╱╱╱╱╱╱╱╱╱╱╱╰╯╱╱╱╱╱╱╱╱╱╱╱╰━━╯
+\n${cl.gb}${cl.yl}getGrass Minner Bot ${cl.rt}${cl.gb}v0.2${cl.rt}
+        `);
+        CoderMarkPrinted = true;
+    }
+}
 
 async function connectToWss(socks5Proxy, userId) {
     const deviceId = uuidv3(socks5Proxy, uuidv3.DNS);
@@ -12,10 +41,9 @@ async function connectToWss(socks5Proxy, userId) {
     while (true) {
         try {
             await new Promise(resolve => setTimeout(resolve, Math.random() * 900 + 100));
-            const customHeaders = {
-                "User-Agent": config["User-Agent"]
-            };
-            const uri = "wss://proxy2.wynd.network:4444/";
+            const customHeaders = { "User-Agent": config.UserAgent };
+            const uriList = ["wss://proxy2.wynd.network:4444/", "wss://proxy2.wynd.network:4650/"];
+            const uri = uriList[Math.floor(Math.random() * uriList.length)];
             const agent = new SocksProxyAgent(socks5Proxy);
             const ws = new WebSocket(uri, {
                 agent: agent,
@@ -25,15 +53,9 @@ async function connectToWss(socks5Proxy, userId) {
                 },
                 rejectUnauthorized: false
             });
-
             ws.on('open', () => {
                 const sendPing = () => {
-                    const sendMessage = JSON.stringify({
-                        id: uuidv4(),
-                        version: "1.0.0",
-                        action: "PING",
-                        data: {}
-                    });
+                    const sendMessage = JSON.stringify({ id: uuidv4(), version: "1.0.0", action: "PING", data: {} });
                     logger.debug(sendMessage);
                     ws.send(sendMessage);
                     setTimeout(sendPing, 110000);
@@ -68,12 +90,8 @@ async function connectToWss(socks5Proxy, userId) {
             });
 
             await new Promise((resolve, reject) => {
-                ws.on('close', () => {
-                    reject(new Error('WebSocket closed'));
-                });
-                ws.on('error', (error) => {
-                    reject(error);
-                });
+                ws.on('close', () => reject(new Error('WebSocket closed')));
+                ws.on('error', (error) => reject(error));
             });
         } catch (e) {
             logger.error(`Error with proxy ${socks5Proxy}: ${e.message}`);
@@ -90,7 +108,6 @@ async function main() {
     const proxyFile = config.proxyFile;
     const userId = config.userId;
     const allProxies = fs.readFileSync(proxyFile, 'utf-8').split('\n').filter(Boolean);
-
     let activeProxies = allProxies.sort(() => 0.5 - Math.random()).slice(0, 100);
     let tasks = new Map(activeProxies.map(proxy => [connectToWss(proxy, userId), proxy]));
 
@@ -121,5 +138,5 @@ function removeProxyFromList(proxy) {
     const updatedList = proxyList.filter(line => line.trim() !== proxy);
     fs.writeFileSync(proxyFile, updatedList.join('\n'));
 }
-
+CoderMark();
 main().catch(console.error);
