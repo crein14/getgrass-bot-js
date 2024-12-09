@@ -1,0 +1,4 @@
+format proxies is => socks://username:pass@ip:port
+socks://username-session-xxxxxxxx:pass@isp.proxies.fo:10808
+socks://username-session-xxxxxxxx:pass@isp.proxies.fo:10808
+socks://username-session-xxxxxxxx:pass@isp.proxies.fo:10808
