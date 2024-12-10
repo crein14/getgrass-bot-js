@@ -1,6 +1,6 @@
 # 🌱 grass-miner-js
 ## Update on release section!
-  - Release [grass-desktop-v0.2](https://github.com/cmalf/grass-miner-js/releases/tag/grass-desktop-v0.2)
+  - Release [Update Release](https://github.com/cmalf/grass-miner-js/releases)
   - mining 2.00X
   - more stable
   - bug fixed
@@ -10,7 +10,7 @@
 > I am not responsible for any loss or damage caused by this bot. Use it at your own risk.
 
 - `Season 2` <br>
-This Javascript-based script will automate grass node mining while managing multiple devices and IP addresses to maximize profits and maintain sustainable uptime. Ideal for people who want to manage WebSocket connections using the SOCKS5 Protocol smoothly and effectively. <br>
+This Javascript-based script will automate grass node mining while managing multiple devices and IP addresses to maximize profits and maintain sustainable uptime. Ideal for people who want to manage WebSocket connections using the HTTP/SOCKS Protocol smoothly and effectively. <br>
                 -
                   - <img src="https://github.com/user-attachments/assets/139f163e-f202-4621-a6fb-39d9c1f2f388" width="600" height="300" alt="Screenshot">
 
@@ -49,7 +49,7 @@ SetUp on `Configuration.js`
   - <img src="https://github.com/user-attachments/assets/8b64ab22-d308-4ee5-854d-58ac275768fb" width="650" height="250" alt="Screenshot">
 
 - Edit Proxy.txt
-  - format proxies is: `socks5://username:pass@ip:port`
+  - format proxies is: `socks://username:pass@ip:port` Or `http://username:pass@ip:port`
 
 - 🏃🏻‍♂️‍➡️ Run The Script
   - if the configuration is complete
