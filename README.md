@@ -4,7 +4,11 @@
   - mining 2.00X
   - more stable
   - bug fixed
-<hr><br><br>
+<hr><br>
+
+> [!WARNING]
+> I am not responsible for any loss or damage caused by this bot. Use it at your own risk.
+
 - `Season 2` <br>
 This Javascript-based script will automate grass node mining while managing multiple devices and IP addresses to maximize profits and maintain sustainable uptime. Ideal for people who want to manage WebSocket connections using the SOCKS5 Protocol smoothly and effectively. <br>
                 -
