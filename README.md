@@ -10,6 +10,7 @@
 |---|---|
 | [grass-desktop-v0.2](https://github.com/cmalf/getgrass-bot-js/releases/tag/grass-desktop-v0.2) | Not |
 | [getgrass-bot-v0.3](https://github.com/cmalf/getgrass-bot-js/releases/tag/getgrass-bot-v0.3) | Not |
+| [getgrass-bot-v0.3.1-minor-update](https://github.com/cmalf/getgrass-bot-js/releases/tag/getgrass-bot-v0.3.1-minor) | Not |
 | [getgrass-bot-v0.4](https://github.com/cmalf/getgrass-bot-js/discussions) | Work (Release at 8 PM WITA (GMT+8)) |
 
 ## 🗣 Discussions
