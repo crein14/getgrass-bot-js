@@ -19,7 +19,7 @@
 |---|---|
 | [Welcome to getgrass-bot-js Discussions!](https://github.com/cmalf/getgrass-bot-js/discussions/3) | Announcement |
 | [Release getgrass-bot-v0.3](https://github.com/cmalf/getgrass-bot-js/discussions/4) | Open |
-| [Release getgrass-bot-v0.4-Freemium](https://github.com/cmalf/getgrass-bot-js/discussions)| Not Open Yet |
+| [Release getgrass-bot-v0.4-Freemium](https://github.com/cmalf/getgrass-bot-js/discussions/9)| Open |
 
 > [!WARNING]
 > I am not responsible for any loss or damage caused by this bot. Use it at your own risk.
