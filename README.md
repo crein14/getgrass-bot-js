@@ -1,68 +1,112 @@
-# 🌱 grass-miner-js
-## Update on release section!
-  - Release [Update Release](https://github.com/cmalf/grass-miner-js/releases)
-  - mining 2.00X
-  - more stable
-  - bug fixed
-<hr><br>
+# 🌱 getgrass-miner-bot-js
+
+## GetGrass Season 2 mining
+
+- A Node.js bot script to automate grass Season 2 mining.
+
+## ⛩ Table Release
+
+| Bot Version | Status(Work/Not) |
+|---|---|
+| [grass-desktop-v0.2](https://github.com/cmalf/getgrass-bot-js/releases/tag/grass-desktop-v0.2) | Not |
+| [getgrass-bot-v0.3](https://github.com/cmalf/getgrass-bot-js/releases/tag/getgrass-bot-v0.3) | Not |
+| [getgrass-bot-v0.4](https://github.com/cmalf/getgrass-bot-js/discussions) | Work (Release at 8 PM WITA (GMT+8)) |
+
+## 🗣 Discussions
+
+| Discussions | Status(Open/Close/Announcement) |
+|---|---|
+| [Welcome to getgrass-bot-js Discussions!](https://github.com/cmalf/getgrass-bot-js/discussions/3) | Announcement |
+| [Release getgrass-bot-v0.3](https://github.com/cmalf/getgrass-bot-js/discussions/4) | Open |
+| [Release getgrass-bot-v0.4-Freemium](https://github.com/cmalf/getgrass-bot-js/discussions)| Not Open Yet |
 
 > [!WARNING]
 > I am not responsible for any loss or damage caused by this bot. Use it at your own risk.
 
-- `Season 2` <br>
-This Javascript-based script will automate grass node mining while managing multiple devices and IP addresses to maximize profits and maintain sustainable uptime. Ideal for people who want to manage WebSocket connections using the HTTP/SOCKS Protocol smoothly and effectively. <br>
-                -
-                  - <img src="https://github.com/user-attachments/assets/139f163e-f202-4621-a6fb-39d9c1f2f388" width="600" height="300" alt="Screenshot">
+
+## 📝 Description
+
+### 🖇️ "Maximize Your Grass Node Mining Profits with This Automated Scripting Bot"
+
+### 🖇️ This Node.js-based JavaScript script automates Grass Node mining, optimizing your earnings by:
+
+- Managing Multiple IP Addresses: Rotates through multiple IP addresses (via proxy) to bypass rate limits and maximize uptime.
+
+- Efficient WebSocket Management: Seamlessly handles WebSocket connections using HTTP/SOCKS protocols for reliable and efficient for mining.
+
+### 🖇️ Ideal for:
+
+- Grass Node miners seeking to streamline their Mining operations
+- Users wanting to optimize WebSocket connections, especialy for getgrass node
+
+### 💰 "Take Your Mining to the Next Level: Boost Your Profits Today!" 💸
 
 
-## 🔓 Register 
-if you don't have a grass account yet, SignUp Here [getgrass.io](https://app.getgrass.io/register/?referralCode=wDYQ8wpucFyJaAU)
+## 🔓 Register  
+
+- if you don't have a grass account yet, SignUp Here [getgrass.io](https://app.getgrass.io/register/?referralCode=wDYQ8wpucFyJaAU)
 
 ## 🤔 How To Do
+
+- Check [Release Page](https://github.com/cmalf/getgrass-bot-js/releases) (To downloads The latest version of the bot script ) Or
+
 - Clone This Repo
+
   - ```bash
-    git clone https://github.com/cmalf/grass-miner-js.git
+    git clone https://github.com/cmalf/getgrass-bot-js.git
     ```
 - Go To Folder
   - ```bash
-    cd grass-miner-js
+    cd getgrass-bot-js
     ```
+- Select the latest version of the bot script
+
 - Install Dependencies
   - ```bash
     npm install
     ```
+- Configure All Settings
+
+- Run The Script
+
+  - ```bash
+    npm start
+    ```
+
 ## ⚙️ Configuration
 
-SetUp on `Configuration.js`
+SetUp on `Config.js`
 
 - Get UserId
+
   - Login to your grass account
   - Go to Dashboard
-  - Inspect Element
-  - Type `localStorage.getItem('userId')` in the console
-  - or just Click Here [get UserId](https://api.getgrass.io/retrieveUser) make sure you have been logged into grass dashboard
-    - ![Screenshot 2024-11-11 at 07 36 24](https://github.com/user-attachments/assets/6fd576ab-b730-473a-8072-2cdb1a54df4e)
-- Get Extention Id
-  - Go To [chrome://extensions/](chrome://extensions/)
-  - <img src="https://github.com/user-attachments/assets/58c8116c-3e99-43c7-be4a-0849c0428d37" width="650" height="350" alt="Screenshot">
-- Get Useragent Click [Here](https://ipchicken.com/)
-  - <img src="https://github.com/user-attachments/assets/8b64ab22-d308-4ee5-854d-58ac275768fb" width="650" height="250" alt="Screenshot">
+  - Right Click Open New Tab [get-UserId](https://api.getgrass.io/retrieveUser)
 
-- Edit Proxy.txt
+  - Edit Proxy.txt
+
   - format proxies is: `socks://username:pass@ip:port` Or `http://username:pass@ip:port`
+  - Note: `The proxy format depends on the bot version you are using`.
 
-- 🏃🏻‍♂️‍➡️ Run The Script
-  - if the configuration is complete
-  ```bash
-  node main.js
-  ```
-  - <img src="https://github.com/user-attachments/assets/a65a126b-d899-4818-9fd2-8689480bbcb4" widht=580 height=480 >
+## 📸 ScreenShoot
+
+- Dahsboard
+
+![Screenshot 2024-12-16 at 09 51 03](https://github.com/user-attachments/assets/9e50dc29-4a45-4888-97c9-5b60f62c6594)
+
+- Script
+  
+![Screenshot 2024-12-16 at 07 27 47](https://github.com/user-attachments/assets/3a4143ec-3bcd-4bd4-8ab6-0d6a8a4e0cd7)
+
+
 
 ## 📢 Additional information
 
   To get a stable Proxy you can use this Platform, plans ranging from $3 to $125 for 6 months, or use your own choice.
   
-- Get Proxies IP address Socks5
+- Get Proxies IP address Http and Socks 
+  (For the socks format, you can change it manually with socks5 (the newest protocol, for a more stable connection) ).
+
   - Create an account at [proxies.fo](https://app.proxies.fo/ref/8b1abd0f-c734-1602-5985-612caedf4c7b)
   - Go to `purchase isp`  and `buy` a plan according to `your needs`.
     - You can use `cryptocurrency` for `payment` 
@@ -72,7 +116,5 @@ SetUp on `Configuration.js`
      - `protocol://username:password@hostname:port`
      - or just look the ss below
      - ![Screenshot 2024-12-06 at 16 24 31](https://github.com/user-attachments/assets/c9d552f1-7241-4705-8580-30a88aae8638)
-
-
 
 
