@@ -6,12 +6,13 @@
 
 ## ⛩ Table Release
 
-| Bot Version | Status(Work/Not) |
+| Bot Version | Status(Work/Not/(N/A) ) |
 |---|---|
 | [grass-desktop-v0.2](https://github.com/cmalf/getgrass-bot-js/releases/tag/grass-desktop-v0.2) | Not |
 | [getgrass-bot-v0.3](https://github.com/cmalf/getgrass-bot-js/releases/tag/getgrass-bot-v0.3) | Not |
 | [getgrass-bot-v0.3.1-minor-update](https://github.com/cmalf/getgrass-bot-js/releases/tag/getgrass-bot-v0.3.1-minor) | Not |
-| [getgrass-bot-v0.4](https://github.com/cmalf/getgrass-bot-js/releases/tag/getgrass-script-v0.4-Freemium) | Work (Released) |
+| [getgrass-bot-v0.4](https://github.com/cmalf/getgrass-bot-js/releases/tag/getgrass-script-v0.4-Freemium) | Not (New Authentication Method) |
+| [getgrass-bot-v0.4.1-Beta](https://github.com/cmalf/getgrass-bot-js/releases/tag/getgrass-script-v0.4.1-Freemium-mu) | N/A |
 
 ## 🗣 Discussions
 
