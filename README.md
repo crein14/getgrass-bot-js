@@ -15,7 +15,8 @@
 | [getgrass-bot-v0.4.1-Beta](https://github.com/cmalf/getgrass-bot-js/releases/tag/getgrass-script-v0.4.1-Freemium-mu) | N/A ( under development ) |
 | [getgrass-bot-v0.4.1-Extension-GM](https://github.com/cmalf/getgrass-bot-js/releases/tag/getgrass-bot-v0.4.1-Extension-GM) | Work ( Extension 1.0x ) |
 | [getgrass-bot-v0.4.1-Ext-Multi](https://github.com/cmalf/getgrass-bot-js/releases/tag/getgrass-bot-v0.4.1-Extension-GM) | Work (Multi Account Support ) |
-| [v0.4.1-Comunity-Extension-1.25x ](https://github.com/cmalf/getgrass-bot-js/releases/tag/getgrass-bot-v0.4.1-Extension-GM) | Work ( Comunity Extension 1.25x |
+| [getgrass-bot-v0.4.1-Comunity-Extension-1.25x ](https://github.com/cmalf/getgrass-bot-js/releases/tag/getgrass-bot-v0.4.1-Extension-GM) | Work ( Comunity Extension 1.25x |
+| [getgrass-bot-v0.4.2-Community-Extension-GM-All](https://github.com/cmalf/getgrass-bot-js/releases/tag/getgrass-bot-v0.4.2-GM-ALL) | Work ( Multi & Normal Recomended ) |
 
 ## 🗣 Discussions
 
@@ -25,6 +26,7 @@
 | [Release getgrass-bot-v0.3](https://github.com/cmalf/getgrass-bot-js/discussions/4) | Close |
 | [Release getgrass-bot-v0.4-Freemium](https://github.com/cmalf/getgrass-bot-js/discussions/9)| Open |
 | [getgrass desktop version (script) 📢❗🚨](https://github.com/cmalf/getgrass-bot-js/discussions/16) | Open ‧₊˚🎄✩ ₊˚🦌⊹♡ |
+| [Release ggb-v0.4.2-Community-Extension-GM-All](https://github.com/cmalf/getgrass-bot-js/discussions/18) | Open |
 
 > [!WARNING]
 > I am not responsible for any loss or damage caused by this bot. Use it at your own risk.
