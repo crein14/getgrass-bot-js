@@ -4,6 +4,8 @@
 
 - A Node.js bot script to automate grass Season 2 mining.
 
+# Telegram Channel : [@getgrassbotjs](https://t.me/getgrassbotjs)
+
 ## ⛩ Table Release
 
 | Bot Version | Status(Work/Not/(N/A) ) |
