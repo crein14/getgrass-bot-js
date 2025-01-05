@@ -109,7 +109,7 @@ SetUp on `Config.js`
 ![Screenshot 2024-12-16 at 07 27 47](https://github.com/user-attachments/assets/3a4143ec-3bcd-4bd4-8ab6-0d6a8a4e0cd7)
 
 
-
+<!--
 ## 📢 Additional information
 
   To get a stable Proxy you can use this Platform, plans ranging from $3 to $125 for 6 months, or use your own choice.
@@ -126,5 +126,5 @@ SetUp on `Config.js`
      - `protocol://username:password@hostname:port`
      - or just look the ss below
      - ![Screenshot 2024-12-06 at 16 24 31](https://github.com/user-attachments/assets/c9d552f1-7241-4705-8580-30a88aae8638)
-
+-->
 
