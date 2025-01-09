@@ -108,15 +108,19 @@ SetUp on `Config.js`
   
 ![Screenshot 2024-12-16 at 07 27 47](https://github.com/user-attachments/assets/3a4143ec-3bcd-4bd4-8ab6-0d6a8a4e0cd7)
 
-
-<!--
 ## 📢 Additional information
+
+> [!TIP]
+> Proxiesfo is stable again after yesterday's server maintenance (on 2025-01-08) <br>
+> so I recommend it again
+
+
+> [!TIP]
+> For this type of websocket connection, the bot relies on speed rather than security. For faster connections, SOCKS5 proxies generally offer better performance than HTTPS proxies. SOCKS5 is protocol agnostic, meaning it can handle all types of traffic, not just HTTP/HTTPS. This flexibility can result in faster speeds, It is recommended to use the socks proxy type. However, for other purposes that rely on security such as webscraping,sensitive activities like online banking, HTTPS proxies is better.
 
   To get a stable Proxy you can use this Platform, plans ranging from $3 to $125 for 6 months, or use your own choice.
   
-- Get Proxies IP address Http and Socks 
-  (For the socks format, you can change it manually with socks5 (the newest protocol, for a more stable connection) ).
-
+- Get Proxies IP address Http and Socks
   - Create an account at [proxies.fo](https://app.proxies.fo/ref/8b1abd0f-c734-1602-5985-612caedf4c7b)
   - Go to `purchase isp`  and `buy` a plan according to `your needs`.
     - You can use `cryptocurrency` for `payment` 
@@ -126,5 +130,4 @@ SetUp on `Config.js`
      - `protocol://username:password@hostname:port`
      - or just look the ss below
      - ![Screenshot 2024-12-06 at 16 24 31](https://github.com/user-attachments/assets/c9d552f1-7241-4705-8580-30a88aae8638)
--->
 
